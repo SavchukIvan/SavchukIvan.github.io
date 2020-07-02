@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 1em;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkIcons {
+  margin-bottom: 5%;
+}
+
+#ivan {
+  display: none;
+}
+
+i {
+  position: relative;
+  left: 70%;
+  border-radius: 5%;
+  background-color: #006BB6;
+  margin-right: 1%;
+  padding: 1%;
+  color: #F8E036;
+}
+
+i:hover {
+  background-color: #F8E036;
+  color: #006BB6;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #F8E036;
+  text-shadow: black 1px 1px 0, black -1px -1px 0, 
+               black -1px 1px 0, black 1px -1px 0;
+}
+
+main {
+  background-color: white;
+}
+
+hr {
+  border: none; /* Убираем границу */
+  background-color: rgba(0, 0, 0, 0.4); /* Цвет линии */
+  color: black; /* Цвет линии для IE6-7 */
+  height: 0.2px; /* Толщина линии */
+}
+
+section {
+  text-align: justify;
+  margin: 2%;
+}
+
+
+aside {
+  display: none;
+}
+
+#library {
+  height: 50%;
+  width: 50%;
+  border: 3px solid #006BB6;
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
+#portraitMobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+  border: 3px solid #F8E036;
+  border-radius: 50%;
+}
+
+/*
+************** ASIDE STYLING **************
+*******************************************
+*******************************************
+*******************************************
+*******************************************
+This should be moved to media query
+*/
+@media (min-width: 600px) {
+  #portraitMobile {
+    display: none;
+  }
+
+  #library {
+    height: 30%;
+    width: 30%;
+  }
+
+  #ivan {
+    display: inline-block;
+    font-size: 4rem;
+    color: #006BB6;
+  }
+
+  #mobnav {
+    display: none;
+  }
+
+  i {
+    left: 0;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  #portrait {
+    height: 50%;
+    width: 50%;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+  }
+
+  .notBrand {
+    margin-top: 20%;
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  nav {
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #004953;
+  }
+
+  aside {
+    font-family: 'Segoe', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    text-align: center;
+    float: left;
+    width: 20%;
+    color: #F58426;
+    background-color: #006BB6;
+    height: 100vh;
+  }
+
+  section {
+    margin-left: 22%;
+    margin-right: 5%;
+  }
+}
+
+/*
+*******************************************
+*******************************************
+            END OF ASIDE AREA
+*******************************************
+*******************************************
+ */

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\all.min.css">
+    <title>Ivan Savchuk</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="mobnav">
+        <a class="navbar-brand" href="#">Savchuk Ivan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav">
+            <div class="notBrand">
+                <li class="nav-item">
+                    <a class="nav-link" href="#biography">Biography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a>
+                </li>
+            </div>
+        </ul>
+        </div>  
+    </nav>
+
+    <!-- ASIDE AREA -->
+    <aside class="aside" id="asidecontainer">
+
+        <!-- NAVBAR -->
+        <nav class="navbar bg-dark navbar-dark">
+            <ul class="navbar-nav">
+                <div class="notBrand">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="img/portrait.JPG" id="portrait" alt="Ivan Savchuk">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biography">Biography</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+      
+    </aside>
+      
+    <main class="main" id="main">
+        <section class="contentSection" id="biography">
+            <h1 id='ivan'>Ivan Savchuk</h1>
+            <img src="img/portrait.JPG" id="portraitMobile" alt="Ivan Savchuk">
+
+            <div class="linkIcons">
+            <i class="fab fa-2x fa-twitter"></i>
+            <i class="fab fa-2x fa-linkedin-in"></i>
+            <i class="fab fa-2x fa-github"></i>
+            </div>
+
+            <p>Hi, I am Ivan Savchuk. I am a student from the capital of Ukraine the great city Kyiv. I attend Igor Sikorski Kyiv Polytechnic University, and study at Applied Mathematics Faculty I have great times here.</p>
+            <p>As a student of such faculty I am really keen on some mathematical things like Calculus, Algebra, Optimization, Data Analysis etc. Mathematics is my passion, but I like everything that can encourage me to do something or learn something new.</p>
+            <p><img src="img/kpilibrary.jpg" alt="KPI Library photo" id="library" title="KPI library">I am kind of person that enjoy sport activities such as running, fitness exercizes or playing basketball. Sports help me to relax and return to the problems what I face with refreshed body and mind.</p>
+            <p>Talking about personality I am a team player that always can help mates with any kind of problems evem if I have to study material to help, also I enjoy teamwork, with my friends we often can spend hours in marvelous KPI library on programming or on some sort of math, we really enjoy the process.</p>  
+        </section>
+        <hr>
+        <section class="contentSection" id="education">
+            <h1>Education</h1>
+            <p>As mentioned above, I am student of 4th course Igor Sikorski Kyiv Polytechnic University and study at Applied Mathematics Faculty.</p>
+            <p>I have studied such disciplines as:</p>
+            <ul>
+                <li>Calculus</li>
+                <li>Algebra</li>
+                <li>Statistics</li>
+                <li>Data Analysis</li>
+                <li>Random processes</li>
+                <li>Database Design and Information Systems</li>
+                <li>Optimization</li>
+            </ul>
+            <p>There are several courses that I attended on Coursera platform, such as:</p>
+            <ul>
+                <li>Deep Learning</li>
+                <li>Tensor Flow</li>
+                <li>Python for Machine Learning</li>
+                <li>Software Design</li>
+                <li>Web Design</li>
+            </ul>
+            <p>And a few more, check out my LinkedIn profile to see full list of my finished courses.</p>
+        </section>
+        <hr>
+        <section class="contentSection" id="projects">
+            <h1>Projects</h1>
+            <p>I have a few projects done yet, such as Information System wich help to order tickets to the cinema.</p>
+            <p>This system provide functionality both to user and to owner of system. Owner can track transactions and view system statistics visually.</p>
+            <p>Anouther one is mini game project. It's  game called  Black Jack where user plays against computer.</p>
+        </section>
+        <hr>
+        <section class="contentSection" id="resume">
+            <h1>Resume</h1>
+            <p>This is my CV.</p>
+            <iframe src="pdf/resume.pdf" width="100%" height="500"></iframe>
+        </section>
+      
+    </main>
+</body>
+</html>
